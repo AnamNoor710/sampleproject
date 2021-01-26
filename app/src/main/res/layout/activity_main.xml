@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:layout_marginRight="6dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Mera Pass Tum Ho"
+        android:textColor="@color/white"
+        android:layout_marginTop="23dp"
+        android:textSize="19dp"
+        android:textStyle="normal"
+        android:fontFamily="cursive"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="23dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/white"
+        android:text="Khuda or Mohabbat"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
